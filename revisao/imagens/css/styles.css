@@ -8,12 +8,12 @@
 
 .c-container__clock--solid {
     border: 2px solid;
-    display: flex;
+    display: block;
 }
 
 .c-container__clock--dashed {
     border: 2px dashed;
-    display: flex;
+    display: block;
 }
 
 img {

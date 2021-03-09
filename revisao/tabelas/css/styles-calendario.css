@@ -1,0 +1,28 @@
+.c-container {
+    text-align: center;
+}
+
+.c-container__content {
+    display: inline-block;
+}
+
+.c-container__calendar {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid;
+    width: 10em;
+    height: 2em;
+    padding: 5px;
+}
+
+tr:nth-child(-n+2) {
+    font-weight: bold;
+}
+
+tr:nth-child(+n+4) td:nth-child(1) {
+    color: red;
+    border-color: black;
+}

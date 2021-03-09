@@ -1,3 +1,11 @@
+.c-container {
+    text-align: center;
+}
+
+.c-container__content {
+    display: inline-block;
+}
+
 p {
     margin-bottom: 2em;
 }

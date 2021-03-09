@@ -1,0 +1,18 @@
+.c-container {
+    text-align: center;
+}
+
+.c-container__content {
+    display: inline-block;
+}
+
+h1:hover {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    padding: 30px 30px;
+    background: url("../media/clock.png") no-repeat right;
+    background-size: 30px;
+}

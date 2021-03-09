@@ -1,0 +1,21 @@
+.c-container {
+    text-align: center;
+}
+
+.c-container__content {
+    display: inline-block;
+}
+
+.c-container__clock--solid {
+    border: 2px solid;
+    display: flex;
+}
+
+.c-container__clock--dashed {
+    border: 2px dashed;
+    display: flex;
+}
+
+img {
+    margin-bottom: 4px;
+}

@@ -1,0 +1,79 @@
+.c-container {
+    text-align: center;
+}
+
+.c-container__content {
+    display: inline-block;
+    margin: 0 auto;
+    width: 30em;
+}
+
+.c-container__title--border {
+    border: 1px solid;
+    padding: .2em;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.c-container__title--border-bottom {
+    border-bottom: 1px solid;
+    padding: .2em;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.c-container__title--border-vertical {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: .2em;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.c-container__title--border-outset {
+    border-left: .2em inset black;
+    border-bottom: 1px solid;
+    padding: .2em;
+    text-align: left;
+    font-size: 1.5em;
+    background-color: #FFFB02;
+}
+
+.c-container__title--border-dotted {
+    border-top: 1px dashed;
+    border-bottom: .2em inset black;
+    padding: .2em;
+    text-align: right;
+    font-size: 1.5em;
+    background-color: #FFFB02;
+}
+
+.c-container__title--border-background-left {
+    border-bottom: 2px solid;
+    padding: .2em;
+    text-align: left;
+    font-size: 1.5em;
+    background-color: #FFFB02;
+}
+
+.c-container__title--border-background-bottom {
+    padding: .2em;
+    text-align: left;
+    font-size: 1.5em;
+
+}
+
+.c-container__title--border-almost-dotted {
+    border-top: 1px dashed;
+    border-bottom: 1px dashed;
+    border-left: 1px dashed;
+    padding: .2em;
+    text-align: left;
+    font-size: 1.5em;
+    padding-bottom: 1.5em;
+    background-color: #FFFB02;
+}
+
+h1 {
+    margin-bottom: 1em;
+}

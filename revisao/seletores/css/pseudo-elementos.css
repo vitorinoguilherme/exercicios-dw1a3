@@ -1,0 +1,10 @@
+.c-container {
+    text-align: center;
+}
+
+.c-container__content {
+    display: inline-block;
+}
+
+p:first-line {color: blue}
+p:first-letter {color: red; font-size: 200%; background:yellow}

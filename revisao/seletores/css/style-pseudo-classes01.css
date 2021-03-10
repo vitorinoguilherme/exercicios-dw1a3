@@ -1,0 +1,29 @@
+.c-container {
+    text-align: center;
+}
+
+.c-container__content {
+    display: inline-block;
+}
+
+a.stl1:link {color : red }
+a.stl1:visited {color : blue }
+a.stl1:hover {color : green }
+
+a.stl2:link {color : red }
+a.stl2:visited {color : blue }
+a.stl2:hover {font-size : 200% }
+
+a.stl3:link {color : red }
+a.stl3:visited {color : blue }
+a.stl3:hover {background : yellow }
+
+a.stl4:link {color : red }
+a.stl4:visited {color : blue }
+a.stl4:hover {font-family: Arial}
+
+a.stl5:link {color : red;
+border : none }
+a.stl5:visited {color : blue;
+border : none }
+a.stl5:hover {border : solid }

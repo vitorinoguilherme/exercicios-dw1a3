@@ -1,0 +1,27 @@
+.c-container {
+    text-align: center;
+}
+
+.c-container__content {
+    display: inline-block;
+}
+
+p {
+    color: white;
+}
+
+p[class] {
+    color: red;
+}
+
+p[class = time-arg] {
+    color: red;
+}
+
+p[class |= time] {
+    color: red;
+}
+
+p[class ~= sp] {
+    color: red;
+}

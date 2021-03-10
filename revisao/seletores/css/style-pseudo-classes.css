@@ -1,0 +1,12 @@
+.c-container {
+    text-align: center;
+}
+
+.c-container__content {
+    display: inline-block;
+}
+
+a:link { color: green } /* link ainda não visitado (no histórico navegador)*/
+a:visited { color: red } /* link já visitado (no histórico navegador)*/
+a:hover { color: yellow } /* link que está sob o ponteiro do mouse */
+a:active { color: blue } /* link selecionado

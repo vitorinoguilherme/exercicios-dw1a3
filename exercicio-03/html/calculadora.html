@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <base href="//localhost:5500/exercicio-03/">
+    <link rel="stylesheet" type="text/css" href="css/calculadora.css">
+    <script type="text/javascript" src="js/calculadora.js"></script>
+</head>
+<body>
+    <div class="c-container">
+        <div class="c-container__content">
+            <h1>Calculadora Modelo</h1>
+            <table class="c-container__calculadora">
+                <tr>
+                    <td colspan="4">
+                        <input type="text" id="field1" readonly="readonly" value="0">
+                    </td>
+                    <td><button onclick="Calculadora.cleartxt()" id="ac">AC</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="Calculadora.writeNumber(this)" id="n9">9</button></td>
+                    <td><button onclick="Calculadora.writeNumber(this)" id="n8">8</td>
+                    <td><button onclick="Calculadora.writeNumber(this)" id="n7">7</td>
+                    <td><button onclick="Calculadora.setOperator(this)" id="divide">9</td>
+                    <td><button onclick="Calculadora.setOperator(this)" id="percentage">%</td>
+                </tr>
+                <tr>
+                    <td><button onclick="Calculadora.writeNumber(this)" id="n6">6</td>
+                    <td><button onclick="Calculadora.writeNumber(this)" id="n5">5</td>
+                    <td><button onclick="Calculadora.writeNumber(this)" id="n4">4</td>
+                    <td><button onclick="Calculadora.setOperator(this)" id="subtraction">-</td>
+                    <td><button onclick="Calculadora.setOperator(this)" id="power">^</td>
+                </tr>
+                <tr>
+                    <td><button onclick="Calculadora.writeNumber(this)" id="n3">3</td>
+                    <td><button onclick="Calculadora.writeNumber(this)" id="n2">2</td>
+                    <td><button onclick="Calculadora.writeNumber(this)" id="n1">1</td>
+                    <td><button onclick="Calculadora.setOperator(this)" id="multi">*</td>
+                    <td><button onclick="Calculadora.setOperator(this)" id="factorial">!</td>
+                </tr>
+                <tr>
+                    <td><button onclick="Calculadora.writeNumber(this)" id="n0">0</td>
+                    <td><button onclick="Calculadora.setDecimal(this, true)" id="dot">.</td>
+                    <td><button onclick="Calculadora.calculate()" id="equal">=</td>
+                    <td><button onclick="Calculadora.setOperator(this)" id="divide">/</td>
+                    <td><button onclick="Calculadora.setOperator(this)" id="sum">+</td>
+                </tr>
+                
+            </table>
+        </div>
+    </div>
+</body>
+</html>

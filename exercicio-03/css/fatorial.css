@@ -1,0 +1,8 @@
+.c-container {
+    text-align: center;
+}
+
+.c-container__content {
+    display: inline-block;
+    text-align: left;
+}

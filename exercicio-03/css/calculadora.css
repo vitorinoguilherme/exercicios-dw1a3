@@ -1,0 +1,46 @@
+.c-container {
+    text-align: center;
+}
+
+.c-container__content {
+    display: inline-block;
+}
+
+.c-container__calculadora {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 34px;
+    border-collapse: separate;
+}
+
+.c-container__calculadora tr:first-child > td > input {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: right;
+    border: 2px solid;
+    font-size: 34px;
+}
+
+td {
+    width: 2em;
+    height: 2em;
+    text-align: center;
+}
+
+tr td:nth-child(+n+4) button {
+    background-color: rgba(98, 108, 102, 0.6);
+}
+
+tr td:nth-child(-n+3) button {
+    background-color: rgba(145, 139, 118, 0.4);
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 2px solid;
+    font-size: 34px;
+}

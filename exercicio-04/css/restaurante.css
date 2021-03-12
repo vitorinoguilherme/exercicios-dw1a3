@@ -1,0 +1,11 @@
+.c-container {
+    text-align: center;
+}
+
+.c-container__restaurante {
+    display: inline-block;
+}
+
+.c-container__restaurante * {
+    margin-bottom: 12px;
+}

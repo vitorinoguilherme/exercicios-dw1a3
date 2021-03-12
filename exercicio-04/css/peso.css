@@ -1,0 +1,16 @@
+.c-container {
+    text-align: center;
+}
+
+.c-container__pesoideal {
+    display: inline-block;
+}
+
+.c-container__pesoideal label input {
+    margin-bottom: 6px;
+}
+
+#pesoideal__gender {
+    border: none; 
+    margin: none;
+}

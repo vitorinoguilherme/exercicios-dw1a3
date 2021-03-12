@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PESO IDEAL</title>
+
+    <base href="//localhost:5500/exercicio-04/">
+    <link rel="stylesheet" type="text/css" href="css/peso.css">
+    <script type="text/javascript" src="js/peso.js"></script>
+</head>
+<body>
+    <div class="c-container">
+        <div class="c-container__pesoideal">
+            <h1 class="pesoideal__title">Programa Cálculo do Peso Ideal</h1>
+            <label for="name">Nome: 
+                <input type="text" id="name">
+            </label>
+            <br>
+
+            <fieldset id="pesoideal__gender">
+                Sexo:
+                <label for="male">
+                    <input type="radio" id="pesoideal__gender male" name="gender" value="m">Masculino
+                </label>
+                <label for="female">
+                    <input type="radio" id=" pesoideal__gender female" name="gender" value="f">Feminino
+                </label>
+            </fieldset>
+            <br>
+
+            <label for="altura">Altura: 
+                <input type="number" id="altura" value="Enter">
+            </label> 
+            <br>
+            <button id="pesoideal__btCalcular">Calcular Peso Ideal</button>
+            <button id="pesoideal__limpar">Limpar Campos</button>
+            <hr>
+            <div id="pesoideal__resultado"></div>
+        </div>
+    </div>
+</body>
+</html>

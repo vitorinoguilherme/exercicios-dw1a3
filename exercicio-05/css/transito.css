@@ -1,0 +1,28 @@
+.c-container {
+    text-align: center;
+}
+
+.c-container__transito {
+    display: inline-block;
+}
+
+.c-container__transito * {
+    display: flex;
+}
+
+.c-container__transito button {
+    display: inline-block;
+}
+
+#transito__resultado {
+    display: inline-block;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
